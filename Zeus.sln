@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
+# Visual Studio Version 18
+VisualStudioVersion = 18.1.11304.174 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeus.Console", "Zeus.Console\Zeus.Console.csproj", "{4773B037-4ABD-47F0-A83B-CE57990FE155}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeus.Tests", "Zeus.Tests\Zeus.Tests.csproj", "{B668DE8E-73EF-4B22-ADD6-487DEC92B5A2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeus.Web", "Zeus.Web\Zeus.Web.csproj", "{AD42A373-9272-456F-B83B-FE1ADE381F02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeus.Mvc", "Zeus.Mvc\Zeus.Mvc.csproj", "{BC8394A7-5304-453F-B4B2-5EB46EF4C6F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,8 +57,23 @@ Global
 		{AD42A373-9272-456F-B83B-FE1ADE381F02}.Release|x64.Build.0 = Release|Any CPU
 		{AD42A373-9272-456F-B83B-FE1ADE381F02}.Release|x86.ActiveCfg = Release|Any CPU
 		{AD42A373-9272-456F-B83B-FE1ADE381F02}.Release|x86.Build.0 = Release|Any CPU
+		{BC8394A7-5304-453F-B4B2-5EB46EF4C6F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC8394A7-5304-453F-B4B2-5EB46EF4C6F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC8394A7-5304-453F-B4B2-5EB46EF4C6F1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BC8394A7-5304-453F-B4B2-5EB46EF4C6F1}.Debug|x64.Build.0 = Debug|Any CPU
+		{BC8394A7-5304-453F-B4B2-5EB46EF4C6F1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BC8394A7-5304-453F-B4B2-5EB46EF4C6F1}.Debug|x86.Build.0 = Debug|Any CPU
+		{BC8394A7-5304-453F-B4B2-5EB46EF4C6F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC8394A7-5304-453F-B4B2-5EB46EF4C6F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC8394A7-5304-453F-B4B2-5EB46EF4C6F1}.Release|x64.ActiveCfg = Release|Any CPU
+		{BC8394A7-5304-453F-B4B2-5EB46EF4C6F1}.Release|x64.Build.0 = Release|Any CPU
+		{BC8394A7-5304-453F-B4B2-5EB46EF4C6F1}.Release|x86.ActiveCfg = Release|Any CPU
+		{BC8394A7-5304-453F-B4B2-5EB46EF4C6F1}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(StartupProject) = preSolution
+		{AD42A373-9272-456F-B83B-FE1ADE381F02} = {AD42A373-9272-456F-B83B-FE1ADE381F02}
 	EndGlobalSection
 EndGlobal
