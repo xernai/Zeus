@@ -24,10 +24,10 @@ jobs:
           dotnet-version: '10.x'
 
       - name: Build with dotnet
-        run: dotnet build Zeus.Console --configuration Release
+        run: dotnet build Zeus.Mvc --configuration Release
 
       - name: dotnet publish
-        run: dotnet publish Zeus.Console -c Release -o "${{env.DOTNET_ROOT}}/myapp"
+        run: dotnet publish Zeus.Mvc -c Release -o "${{env.DOTNET_ROOT}}/myapp"
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
@@ -54,5 +54,6 @@ jobs:
           package: .
 
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5C6232CEE8FB4DA4B3B0F90210BA51E8 }}
+
 
 
